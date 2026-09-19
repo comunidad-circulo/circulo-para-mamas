@@ -1,0 +1,37 @@
+<header class="nav">
+	<div class="nav-inner">
+
+		<a class="brand" href="{{ '/' | relative_url }}">
+			CÍRCULO
+			<small>PARA MAMÁS</small>
+		</a>
+
+		<button
+			class="nav-toggle"
+			type="button"
+			aria-label="Abrir menú"
+			aria-expanded="false"
+			aria-controls="nav-menu"
+		>
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+
+		<div class="nav-menu" id="nav-menu">
+
+			<nav class="links">
+				<a href="{{ '/' | relative_url }}">Inicio</a>
+				<a href="{{ '/#que-es' | relative_url }}">¿Qué es?</a>
+				<a href="{{ '/#cartelera' | relative_url }}">Temas del mes</a>
+				<a href="{{ '/#preguntas' | relative_url }}">Preguntas frecuentes</a>
+			</nav>
+
+			<a class="pill" href="{{ '/#cartelera' | relative_url }}">
+				Nos vemos el martes
+			</a>
+
+		</div>
+
+	</div>
+</header>

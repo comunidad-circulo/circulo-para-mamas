@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<article class="post">
+
+	<header class="post-header">
+
+		<a class="post-back" href="{{ '/' | relative_url }}#cartelera">
+			← Volver a temas
+		</a>
+
+		<p class="post-category">
+			{{ page.category_name }}
+		</p>
+
+		<h1>{{ page.title }}</h1>
+
+		{% if page.description %}
+		<p class="post-description">
+			{{ page.description }}
+		</p>
+		{% endif %}
+
+		<time datetime="{{ page.date | date_to_xmlschema }}">
+			{{ page.date | date: "%d/%m/%Y" }}
+		</time>
+
+	</header>
+
+	<div class="post-content">
+		{{ content }}
+	</div>
+
+</article>

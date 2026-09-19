@@ -1,0 +1,70 @@
+<section class="cartelera">
+
+	<div class="section-heading">
+
+		<p class="eyebrow">Este mes</p>
+
+		<h2>Temas de {{ site.data.cartelera.mes }}</h2>
+
+		<p class="section-heading-tagline">
+			Temas reales para una vida real.
+		</p>
+
+	</div>
+	
+	<div class="cartelera-grid">
+
+		{% for tema in site.data.cartelera.temas %}
+
+		<article class="tema-card">
+
+			<div class="tema-imagen">
+				<img
+					src="{{ tema.imagen | relative_url }}"
+					alt=""
+					loading="lazy"
+				>
+			</div>
+
+			<div class="tema-content">
+
+				<div class="tema-fecha">
+					<span class="dia">{{ tema.fecha }}</span>
+					<span class="mes">
+						{{ site.data.cartelera.mes | slice: 0, 3 | upcase }}
+					</span>
+				</div>
+
+				<h3>{{ tema.titulo }}</h3>
+
+				<p class="tema-descripcion">
+					{{ tema.descripcion }}
+				</p>
+
+				<div class="tema-footer">
+
+					<span class="tema-categoria categoria-{{ tema.categoria | slugify }}">
+						{{ tema.categoria }}
+					</span>
+
+					{% if tema.post %}
+					<a class="tema-link" href="{{ tema.post | relative_url }}">
+						Leer tema →
+					</a>
+					{% else %}
+					<span class="tema-proximamente">
+						Próximamente
+					</span>
+					{% endif %}
+
+				</div>
+
+			</div>
+
+		</article>
+
+		{% endfor %}
+
+	</div>
+
+</section>

@@ -1,32 +1,31 @@
-mes: Septiembre
+mes: Octubre
 anio: 2026
 
 temas:
-  - fecha: "03"
-    titulo: "¿Por qué termino haciendo por mis hijos lo que ya pueden hacer solos?"
+  - fecha: "06"
+    titulo: "¿De dónde saco la fuerza para amar cuando ya no me quedan fuerzas?"
     categoria: "Vida familiar"
     categoria_id: "vida-familiar"
-    descripcion: "Autonomía, educación y paciencia en casa."
-    imagen: "/assets/images/temas/mama_nina.webp"
-    post: "/temas/autonomia-sin-prisas/"
-
-  - fecha: "10"
-    titulo: "¿Cómo mantener la calma cuando todos parecen necesitarme al mismo tiempo?"
-    categoria: "Virtudes"
-    categoria_id: "virtudes"
-    descripcion: "La fortaleza para esos días en los que mamá también se cansa."
+    descripcion: "Cristo me alimenta."
     imagen: "/assets/images/temas/tasa_nota_un_dia.webp"
 
-  - fecha: "17"
-    titulo: "Tenemos hijos juntos… pero ¿seguimos teniendo tiempo para nosotros?"
+  - fecha: "13"
+    titulo: "Próximamamente"
+    categoria: "Virtudes"
+    categoria_id: "virtudes"
+    descripcion: " "
+    imagen: "/assets/images/temas/mama_nina.webp"
+
+  - fecha: "20"
+    titulo: "Próximamente"
     categoria: "Matrimonio"
     categoria_id: "matrimonio"
-    descripcion: "El matrimonio después de que llegan los hijos."
+    descripcion: " "
     imagen: "/assets/images/temas/matrimonio.webp"
 
-  - fecha: "24"
-    titulo: "Quiero tener más vida espiritual… ¿pero dónde la meto en mi día?"
+  - fecha: "27"
+    titulo: "Próximamente"
     categoria: "Vida espiritual"
     categoria_id: "vida-espiritual"
-    descripcion: "Encontrar a Dios entre el trabajo, los pendientes, el tráfico y la vida de todos los días."
+    descripcion: " "
     imagen: "/assets/images/temas/vida_espiritual.webp"

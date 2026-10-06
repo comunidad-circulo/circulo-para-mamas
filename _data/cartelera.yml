@@ -10,10 +10,10 @@ temas:
     imagen: "/assets/images/temas/tasa_nota_un_dia.webp"
 
   - fecha: "13"
-    titulo: "Próximamamente"
+    titulo: "La paciencia, ¿es heredada o adquirida?"
     categoria: "Virtudes"
     categoria_id: "virtudes"
-    descripcion: " "
+    descripcion: "Puede que la mía sea limitada, y ante eso... ¿qué puedo hacer?"
     imagen: "/assets/images/temas/mama_nina.webp"
 
   - fecha: "20"

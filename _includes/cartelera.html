@@ -43,18 +43,21 @@
 
 				<div class="tema-footer">
 
+					{% comment %}
 					<span class="tema-categoria categoria-{{ tema.categoria_id }}">
 						{{ tema.categoria }}
 					</span>
-
+					{% endcomment %}
 					{% if tema.post %}
 					<a class="tema-link" href="{{ tema.post | relative_url }}">
 						Leer tema →
 					</a>
 					{% else %}
+					{% comment %}
 					<span class="tema-proximamente">
 						Próximamente
 					</span>
+					{% endcomment %}
 					{% endif %}
 
 				</div>

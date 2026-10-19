@@ -17,10 +17,10 @@ temas:
     imagen: "/assets/images/temas/mama_nina.webp"
 
   - fecha: "20"
-    titulo: "Próximamente"
+    titulo: "¿Qué estás buscando realmente para que tú familia sea feliz?"
     categoria: "Matrimonio"
     categoria_id: "matrimonio"
-    descripcion: " "
+    descripcion: "Cómo identificar y construir las bases de una felicidad genuina en casa."
     imagen: "/assets/images/temas/matrimonio.webp"
 
   - fecha: "27"

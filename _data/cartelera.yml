@@ -24,8 +24,8 @@ temas:
     imagen: "/assets/images/temas/matrimonio.webp"
 
   - fecha: "27"
-    titulo: "Próximamente"
+    titulo: "Día de Muertos: ¿qué celebramos realmente?"
     categoria: "Vida espiritual"
     categoria_id: "vida-espiritual"
-    descripcion: " "
-    imagen: "/assets/images/temas/vida_espiritual.webp"
+    descripcion: "Entre tradiciones, recuerdos y oraciones, descubramos el sentido de esta fecha desde nuestra fe."
+    imagen: "/assets/images/temas/altar_dia_muertos.webp"

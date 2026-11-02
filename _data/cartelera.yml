@@ -1,31 +1,31 @@
-mes: Octubre
+mes: Noviembre
 anio: 2026
 
 temas:
-  - fecha: "06"
-    titulo: "¿De dónde saco la fuerza para amar cuando ya no me quedan fuerzas?"
+  - fecha: "03"
+    titulo: "¿Hay sitio para el encuentro en nuestra casa?"
     categoria: "Vida familiar"
     categoria_id: "vida-familiar"
-    descripcion: "Cristo me alimenta."
-    imagen: "/assets/images/temas/tasa_nota_un_dia.webp"
+    descripcion: "Dios nos invita al encuentro y a hacer espacio para los demás, nuestra casa es una escuela de comunión."
+    imagen: "/assets/images/temas/haciendo_lugar.webp"
 
-  - fecha: "13"
-    titulo: "La paciencia, ¿es heredada o adquirida?"
+  - fecha: "10"
+    titulo: "Próximamente"
     categoria: "Virtudes"
     categoria_id: "virtudes"
-    descripcion: "Puede que la mía sea limitada, y ante eso... ¿qué puedo hacer?"
-    imagen: "/assets/images/temas/mama_nina.webp"
+    descripcion: " "
+    imagen: "/assets/images/temas/proximamente_2.webp"
 
-  - fecha: "20"
-    titulo: "¿Qué estás buscando realmente para que tú familia sea feliz?"
+  - fecha: "17"
+    titulo: "Próximamente"
     categoria: "Matrimonio"
     categoria_id: "matrimonio"
-    descripcion: "Cómo identificar y construir las bases de una felicidad genuina en casa."
-    imagen: "/assets/images/temas/matrimonio.webp"
+    descripcion: " "
+    imagen: "/assets/images/temas/proximamente_1.webp"
 
-  - fecha: "27"
-    titulo: "Día de Muertos: ¿qué celebramos realmente?"
+  - fecha: "24"
+    titulo: "Próximamente"
     categoria: "Vida espiritual"
     categoria_id: "vida-espiritual"
-    descripcion: "Entre tradiciones, recuerdos y oraciones, descubramos el sentido de esta fecha desde nuestra fe."
-    imagen: "/assets/images/temas/altar_dia_muertos.webp"
+    descripcion: " "
+    imagen: "/assets/images/temas/proximamente_3.webp"
